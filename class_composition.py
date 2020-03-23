@@ -4,7 +4,7 @@ class Bookshelf:
     def __str__(self):
         return f"Bookshel with {len(self.books)} books "
 class Book:
-    def __init__(self,namequantity):
+    def __init__(self,nameq,uantity):
 
 
 shelf=Bookshelf(300)
